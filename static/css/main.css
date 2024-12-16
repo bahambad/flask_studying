@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom right, #f0f0f0, #c8d0fc);
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.shapka {
+  list-style: none; /* Убираем маркеры списка */
+  padding: 0;
+  display: flex; /* Размещаем элементы горизонтально */
+  justify-content: center; /* Выравниваем по центру */
+}
+
+.socials{
+  list-style: none; /* Убираем маркеры списка */
+  display: flex; /* Размещаем элементы горизонтально */
+  padding: 0;
+}
+
+li {
+  margin: 10px; /* Отступы между элементами */
+}
+
+.shapes {
+  text-decoration: none; /* Убираем подчеркивание */
+  padding: 10px 20px; /* Поля внутри кнопки */
+  background-color: #00bfff; /* Цвет фона */
+  color: white; /* Цвет текста */
+  border-radius: 5px; /* Скругленные углы */
+  transition: background-color 0.3s ease; /* Эффект при наведении */
+}
+.illustration {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #888;
+  margin: 20px;
+  float: right;
+}
+
+.shapes:hover {
+  background-color: #e32636; /* Цвет фона при наведении */
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+</head>
+<body>
+    <header>
+        <h1>NURIK 05</h1>
+        <nav>
+            <ul class="shapka">
+                <li><a class="shapes" href="/">Главная</a></li>
+                <li><a class="shapes" href="/about">История</a></li>
+                <li><a class="shapes" href="/hobbies">Увлечения</a></li>
+                <li><a class="shapes" href="/social">Социальные сети</a></li>
+            </ul>
+        </nav>
+    </header>
+    {% block body %}{% endblock %}
+
+    <footer>
+        <p>&copy; 1993 bahtiyarchek</p>
+    </footer>
+</body>
+</html>
